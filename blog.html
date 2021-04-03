@@ -1,14 +1,31 @@
 ---
-layout: default
+layout: default_blog
 title: Blog
 ---
-<h1>Latest Posts</h1>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-    </li>
-    {% endfor %}
-</ul>
+
+
+<section id="services">
+    <div class="container" id="contentpage">
+        <div class="row">
+
+            <h1>Latest Posts</h1>
+
+            <article>
+                {% for post in site.posts %}
+                <div class="item">
+                    <h6>
+                        <span class="small text-uppercase ">{{ post.categories }}</span> |
+                        <span class="small text-uppercase ">{{ post.date | date: "%-d %B %Y" }}</span>
+
+                    </h6>
+                    <h2 class="display-4 grand-titre"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {{ post.excerpt }}
+
+                </div>
+                {% endfor %}
+            </article>
+
+        </div>
+    </div>
+</section>
