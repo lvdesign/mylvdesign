@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="shortcut icon" href="/assets/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/m/apple-touch-icon-precomposed.png">
+
+    <title>LVdesign Studio</title>
+    <link rel="apple-touch-icon" href="/assets/m/apple-touch-icon.png">
+
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <!-- feed & seo -->
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="LVdesign" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Données regroupées Pays, Capitales et Localisations | LVdesign</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Données regroupées Pays, Capitales et Localisations" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Pour la réalisation d’une app afin de localiser rapidement une capitale dans le monde, je n’ai pas trouvé de fichier en .csv regroupant toutes ces données. J’ai donc recomposer avec Pandas un fichier en .csv où vous pouvez retrouver à la fois le pays, la capitale, la géolocalisation (Latitude,Longitude)." />
+<meta property="og:description" content="Pour la réalisation d’une app afin de localiser rapidement une capitale dans le monde, je n’ai pas trouvé de fichier en .csv regroupant toutes ces données. J’ai donc recomposer avec Pandas un fichier en .csv où vous pouvez retrouver à la fois le pays, la capitale, la géolocalisation (Latitude,Longitude)." />
+<link rel="canonical" href="/articles/datamondes" />
+<meta property="og:url" content="/articles/datamondes" />
+<meta property="og:site_name" content="LVdesign" />
+<meta property="og:image" content="/assets/img/articles/capital_city_world_location.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-03-03T10:30:13+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:image" content="/assets/img/articles/capital_city_world_location.png" />
+<meta property="twitter:title" content="Données regroupées Pays, Capitales et Localisations" />
+<meta name="twitter:site" content="@lvdesign" />
+<script type="application/ld+json">
+{"headline":"Données regroupées Pays, Capitales et Localisations","dateModified":"2019-03-03T10:30:13+01:00","datePublished":"2019-03-03T10:30:13+01:00","url":"/articles/datamondes","mainEntityOfPage":{"@type":"WebPage","@id":"/articles/datamondes"},"description":"Pour la réalisation d’une app afin de localiser rapidement une capitale dans le monde, je n’ai pas trouvé de fichier en .csv regroupant toutes ces données. J’ai donc recomposer avec Pandas un fichier en .csv où vous pouvez retrouver à la fois le pays, la capitale, la géolocalisation (Latitude,Longitude).","@type":"BlogPosting","image":"/assets/img/articles/capital_city_world_location.png","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- Google Analytics: change UA-50866135-1 to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-50866135-1', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</head>
+
+<body id="page-top" class="page-blog">
+    <!-- Navigation -->
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<a class="sr-only" href="#contentpage">Skip to main content</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger " href="#page-top"><img src="/assets/img/lvdesign-brand-50.png"
+                alt="LVdesign">LVdesign</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/articles">Articles</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+    <section id="services">
+
+    <div class="container" id="contentpage">
+        <article class="row">
+            <section class="col-12 col-sm-9 main-article">
+
+                <figure>
+                    <img class="img-article-big" src="/assets/img/articles/capital_city_world_location.png" alt="Données regroupées Pays, Capitales et Localisations" />
+                </figure>
+
+                <h6>
+                    <span class="small text-uppercase ">data-science</span> |
+                    <span class="small text-uppercase ">3 March 2019</span>
+                </h6>
+                <h1 class="titre">Données regroupées Pays, Capitales et Localisations</h1>
+
+
+                <p>Pour la réalisation d’une app afin de localiser rapidement une capitale dans le monde, je n’ai pas trouvé de fichier en .csv regroupant toutes ces données. J’ai donc recomposer avec Pandas un fichier en .csv où vous pouvez retrouver à la fois le pays, la capitale, la géolocalisation (Latitude,Longitude).</p>
+
+<p>For the realization of an app to quickly locate a capital in the world, I did not find a file in csv gathering all this data. So I recompose with Pandas a convenient file where you can find both the country, the capital, geolocation (Latitude, Longitude).</p>
+
+<p>Voici le lien à partager : <a href="../assets/loaddoc/capital_city_world_location.csv"> le fichier Capital-Pays-Localisation-Données en csv</a></p>
+
+
+
+
+                <!--<p>csv and data</p>-->
+
+                <ul>
+                    
+                    <li>#csv </a></li>
+                    
+                    <li>#data </a></li>
+                    
+                </ul>
+
+                <p><a href="/articles">-> Articles</a></p>
+
+            </section>
+
+            <div class="col-12 col-sm-3 aside-article">
+
+                <h6>[ Récents Posts }</h6>
+                <h6>[ Categories }</h6>
+                <form action="" method="get" class="form-inline">
+                    <div class="form-group">
+                        <label for="q" class="sr-only"></label>
+                        <input type="text" name="q" id="q" class="form-control" placeholder="Rechercher…">
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-primary">Search</button>
+                </form>
+            </div>
+
+
+        </article>
+    </div>
+</section>
+    <!-- js -->
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/popper/popper.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="/assets/vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="/assets/js/agency.js"></script>
+</body>
+
+</html>
