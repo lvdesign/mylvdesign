@@ -50,22 +50,6 @@ include:
   - 404.html
   - offline.html
 
-defaults:
-  - scope:
-      path: ""
-      type: "articles"
-    values:
-      layout: "article"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
