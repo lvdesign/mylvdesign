@@ -23,7 +23,7 @@ email: mailbox@lvdesign.com.fr
 description: >- # this means to ignore newlines until "baseurl:"
   LVdesign Studio, création et réalisation de site internet responsable et responsive. Consultant transformation digital, webdesign et developement web..
 baseurl: /mylvdesign # the subpath of your site, e.g. /blog
-url: https://lvdesign.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: lvdesign.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: lvdesign
 
