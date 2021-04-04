@@ -22,7 +22,7 @@ title: "LVdesign"
 email: "mailbox@lvdesign.com.fr"
 description: "LVdesign Studio, création et réalisation de site internet responsable et responsive. Consultant transformation digital, webdesign et developement web.."
 baseurl: /mylvdesign
-#url: "https://lvdesign.github.io"
+url: https://lvdesign.github.io
 
 github_username: lvdesign
 
