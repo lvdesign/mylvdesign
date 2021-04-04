@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/articles/my-addresses</loc>
+<loc>http://localhost:4000/mylvdesign/articles/my-addresses</loc>
 <lastmod>2015-03-08T10:30:13+01:00</lastmod>
 </url>
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/articles/datamondes</loc>
+<loc>http://localhost:4000/mylvdesign/articles/datamondes</loc>
 <lastmod>2019-03-03T10:30:13+01:00</lastmod>
 </url>
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/articles/jamstack</loc>
+<loc>http://localhost:4000/mylvdesign/articles/jamstack</loc>
 <lastmod>2020-02-21T10:30:14+01:00</lastmod>
 </url>
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/articles/top-top-top-django-3</loc>
+<loc>http://localhost:4000/mylvdesign/articles/top-top-top-django-3</loc>
 <lastmod>2020-05-08T11:30:13+02:00</lastmod>
 </url>
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/</loc>
+<loc>http://localhost:4000/mylvdesign/</loc>
 </url>
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/offline.html</loc>
+<loc>http://localhost:4000/mylvdesign/offline.html</loc>
 <lastmod>2017-11-01T14:22:19+01:00</lastmod>
 </url>
 </urlset>
