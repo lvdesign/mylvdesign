@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: LVdesign
-email: mailbox@lvdesign.com.fr
+title: "LVdesign"
+email: "mailbox@lvdesign.com.fr"
 description: "LVdesign Studio, création et réalisation de site internet responsable et responsive. Consultant transformation digital, webdesign et developement web.."
 baseurl: "/mylvdesign"
 url: "https://lvdesign.github.io"
