@@ -1,1 +1,1 @@
-Sitemap: https://lvdesign.github.io/mylvdesign/sitemap.xml
+Sitemap: /mylvdesign/sitemap.xml
