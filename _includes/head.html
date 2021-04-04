@@ -1,0 +1,33 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="{{ '/site.webmanifest' | prepend: site.baseurl | prepend: site.url }}" />
+
+    <link rel="shortcut icon" href="{{ '/assets/favicon.png' | prepend: site.baseurl | prepend: site.url  }}">
+    <link rel="apple-touch-icon-precomposed"
+        href="{{'/assets/m/apple-touch-icon-precomposed.png' | prepend: site.baseurl | prepend: site.url  }}">
+
+    <title>LVdesign Studio</title>
+    <link rel="apple-touch-icon"
+        href="{{ '/assets/m/apple-touch-icon.png' | prepend: site.baseurl| prepend: site.url  }}">
+
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <!-- feed & seo -->
+    {% feed_meta %}
+    {% seo %}
+
+    <!-- Google Analytics: change UA-50866135-1 to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-50866135-1', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</head>

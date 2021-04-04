@@ -2,11 +2,5 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
-_posts
-_layouts
-_includes
-_articles
-_data
-_sass
+
 _mydocs
-_site
