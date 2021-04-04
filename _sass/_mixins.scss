@@ -1,0 +1,82 @@
+// Mixins
+// Bootstrap Button Variant
+@mixin button-variant($color, $background, $border) {
+  color: $color;
+  border-color: $border;
+  background-color: $background;
+  &.focus,
+  &:focus {
+    color: $color;
+    border-color: darken($border, 25%);
+    background-color: darken($background, 10%);
+  }
+  &:hover {
+    color: $color;
+    border-color: darken($border, 12%);
+    background-color: darken($background, 10%);
+  }
+  &.active,
+  &:active,
+  .open > &.dropdown-toggle {
+    color: $color;
+    border-color: darken($border, 12%);
+    background-color: darken($background, 10%);
+    &.focus,
+    &:focus,
+    &:hover {
+      color: $color;
+      border-color: darken($border, 25%);
+      background-color: darken($background, 17%);
+    }
+  }
+  &.active,
+  &:active,
+  .open > &.dropdown-toggle {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &.focus,
+    &:focus,
+    &:hover {
+      border-color: $border;
+      background-color: $background;
+    }
+  }
+  .badge {
+    color: $background;
+    background-color: $color;
+  }
+}
+
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Font Mixins
+//<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+@mixin serif-font {
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+@mixin script-font {
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+@mixin body-font {
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+@mixin heading-font {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  text-transform: uppercase;
+}
+
+@mixin heading-font-bdc {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  text-transform: none;
+  line-height: 1.5;
+}

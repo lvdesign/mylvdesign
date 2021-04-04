@@ -1,0 +1,40 @@
+
+/* myarticles.html */
+section .main-article{
+    padding-top:0px;
+}
+
+section .main-article ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    
+}
+section .main-article ul > li{
+    display:inline;
+}
+
+/* 
+titre articles
+display-2
+*/
+.grand-titre{
+    font-size:5em;
+}
+
+.item{
+    padding-bottom:3em;
+}
+
+
+/* article.html */
+.titre{
+    font-size:3em;
+}
+.img-article-big{
+    width:30%
+}
+
+.Tweettweet{
+    margin-top:1em;
+}
