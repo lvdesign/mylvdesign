@@ -1,40 +1,67 @@
 
-/* myarticles.html */
-section .main-article{
-    padding-top:0px;
+/* articles.html */
+body.articles {
+    background:black;
+    color:white;
+   
+}
+.main{
+    margin-top: 5rem;
 }
 
-section .main-article ul{
-    list-style: none;
-    margin:0;
-    padding:0;
-    
-}
-section .main-article ul > li{
-    display:inline;
-}
 
 /* 
 titre articles
 display-2
 */
-.grand-titre{
+.articles{
+    margin-bottom: 5em;
+}
+h2.titre_article {
     font-size:5em;
+    font-family:'Libre Baskerville', Georgia, serif;
+}
+h2.titre_article_detail{
+    font-size:3rem;
+    font-family:'Libre Baskerville', Georgia, serif;
 }
 
-.item{
-    padding-bottom:3em;
+.image_article{ max-width:300px; }
+
+figcaption{line-height: 1.5rem;}
+
+figcaption,
+.date_article,
+.cat_article,
+.tag_article {
+    font-size: small;
+    text-transform: uppercase;
+    color:#666;
 }
 
 
-/* article.html */
-.titre{
-    font-size:3em;
+
+hr.hr_article {
+    margin-top:2em;
+    border: none;
+    border-top: 3px double #666;
+    color: #666;
+    overflow: visible;
+    text-align: center;
+    height: 1px;
+    width: 33%;
 }
-.img-article-big{
-    width:30%
+hr.hr_article:after {
+    background: black;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
+
+.articles ul {list-style:none; }
+.articles ul li p{ padding:0;}
 
 .Tweettweet{
-    margin-top:1em;
+    margin-top:2rem;
 }

@@ -12,7 +12,3 @@ $gray: lighten($gray-base, 33.5%) !default;
 $gray-light: lighten($gray-base, 46.7%) !default;
 $gray-lighter: lighten($gray-base, 93.5%) !default;
 
-// specific css control text
-.w-line{
-    white-space:nowrap;
-}

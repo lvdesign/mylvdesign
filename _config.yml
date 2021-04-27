@@ -44,7 +44,6 @@ sass:
 collections:
   articles:
     output: true
-    permalink: /articles/:name
 
 include:
   - 404.html

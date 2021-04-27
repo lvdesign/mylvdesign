@@ -1,0 +1,45 @@
+---
+layout: default1
+---
+
+<section class="main">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+
+                {% for article in site.articles %}
+                <div class="articles">
+                    <figure>
+                        <img class="image_article" src="{{ article.image_path }}" alt="{{ article.title }}">
+                        <figcaption>{{ article.title }}</figcaption>
+                    </figure>
+                    <h2 class="titre_article display-2">
+                        <a href="{{ article.url | prepend:site.baseurl }}">{{ article.title }}</a>
+                    </h2>
+                    <p>
+                        <span class="cat_article">{{article.categories}}</span> |
+                        <span class="date_article">{{article.date | date_to_string }}</span>
+                    </p>
+
+                    {{ article.content | strip_html | truncatewords:45}}
+
+                    <p class="tag_article">{{article.tags }}</p>
+
+                    <hr class="hr_article">
+                </div><!-- col - Articles -->
+
+                {% endfor %}
+
+
+
+
+
+            </div>
+        </div><!-- Row -->
+
+
+    </div><!-- Cont -->
+
+
+</section>

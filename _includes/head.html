@@ -20,6 +20,14 @@
         type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+    <!-- meta description SEO par page consultée -->
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
     <!-- feed & seo -->
     {% feed_meta %}
     {% seo %}

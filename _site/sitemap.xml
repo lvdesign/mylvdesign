@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/</loc>
+<loc>http://localhost:4000/mylvdesign/articles/site-vitrine.html</loc>
+<lastmod>2019-06-23T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>https://lvdesign.github.io/mylvdesign/offline.html</loc>
+<loc>http://localhost:4000/mylvdesign/articles/site-societe.html</loc>
+<lastmod>2019-07-23T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mylvdesign/articles/my-adresses.html</loc>
+<lastmod>2020-06-23T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mylvdesign/articles/top-top-django.html</loc>
+<lastmod>2020-06-23T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mylvdesign/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/mylvdesign/articles/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/mylvdesign/offline.html</loc>
 <lastmod>2017-11-01T14:22:19+01:00</lastmod>
 </url>
 </urlset>
