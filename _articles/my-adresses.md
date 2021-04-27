@@ -5,7 +5,7 @@ date: 23/6/2020
 categories: Web
 image_path: ../assets/img/articles/address.png
 description: "My addresses : un nouveau site de LVdesign.com.fr pour vous servir. C'est un site pour conserver et partager vos bonnes adresses."
-twitterimage: ../assets/img/articles/address.png
+twitterimage: assets/img/articles/address.png
 ---
 
 
