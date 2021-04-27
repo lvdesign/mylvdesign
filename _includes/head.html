@@ -27,7 +27,13 @@
     {% else %}
     <meta name="description" content="{{ site.description }}">
     {% endif %}
+
+    {% if page.twitterimage %}
+    <meta name="twitter:image" content="{{ page.twitterimage }}" />
+    {% else %}
     <meta name="twitter:image" content="https://lvdesign.github.io/mylvdesign/assets/img/icon/lvdesign-600.png" />
+    {% endif %}
+
     <!-- feed & seo -->
     {% feed_meta %}
     {% seo %}

@@ -6,6 +6,7 @@ categories: Web
 image_path: ../assets/img/articles/sitevitrine.png
 tags: [ web, design, commerce]
 description: "Site-Vitrine : un site pour votre boutique en ligne ! Votre société sera présente sur le web pour communiquer facilement avec vos clients."
+twitterimage: ../assets/img/articles/sitevitrine.png
 ---
 
 

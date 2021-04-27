@@ -6,6 +6,7 @@ categories: Web
 image_path: ../assets/img/articles/sitesociete.png
 tags: [ web, design, e-commerce]
 description: "Site-Societe : un site pour votre boutique en ligne ! Votre société sera présente sur le web pour communiquer facilement avec vos clients."
+twitterimage: ../assets/img/articles/sitesociete.png
 ---
 
 
