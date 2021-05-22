@@ -20,7 +20,7 @@ Nous étudierons ensemble la bonne solution.
 
 ---
 
-### Vous pouvez vous rendre compte de site avec cet exemple de [ Site-Vitrine ]("https://lvdesign.github.io/sitevitrine/")
+### Vous pouvez vous rendre compte de site avec cet exemple de [ Site-Vitrine ](https://lvdesign.github.io/sitevitrine/ "LVdesign son site vitrine")
 
 --------------------------
 --------------------------

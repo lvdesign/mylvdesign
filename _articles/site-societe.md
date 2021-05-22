@@ -25,7 +25,7 @@ d'autres techniques sont réalisables ( WebApp, NodeJS/Angular ou React ) et sel
 ------
 ------
 
-### Vous pouvez vous rendre compte de site avec cet exemple de [ Site-Société ]("https://lvdesign.github.io/sitesociete/")
+### Vous pouvez vous rendre compte de site avec cet exemple de [ Site-Société ](https://lvdesign.github.io/sitesociete/)
 
 -----
 
