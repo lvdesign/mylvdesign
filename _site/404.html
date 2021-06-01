@@ -53,10 +53,16 @@
 
 
     <!-- Google Analytics: change UA-50866135-1 to be your site's ID. -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50866135-1"></script>
     <script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', 'UA-50866135-1', 'auto'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-50866135-1');
     </script>
+
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </head>
 
