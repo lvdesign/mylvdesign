@@ -3,6 +3,7 @@ layout: article
 title: Jamstack ? mais oui, c'est bien sur…
 date: 23/6/2020
 categories: Web
+tags: [ pratique, javascript]
 image_path: ../assets/img/articles/Jamstack_Logo_Original_Solid.png
 description: "Jamstack : votre site est en ligne, tout marche bien et en fait vos documents sont sur votre ordinateur!"
 twitterimage: assets/img/articles/Jamstack_Logo_Original_Solid.png
@@ -23,3 +24,6 @@ D'ailleurs le site que vous visitez est dans l'esprit Jamstack.
 Bon si vous voulez en savoir plus, voici un cadeau de la part de Netlify, Mathias Biilmann et Phil Hawksworth, les deux auteurs : [JAMstack best practices](https://www.netlify.com/oreilly-jamstack/#download)
 
 Texte inspiré par [Chris Ferdinandi](https://gomakethings.com/resources-for-building-a-jamstack-website-or-web-app/),  [Netifly](https://www.netlify.com/oreilly-jamstack/) et [Jamstack](https://jamstack.org/)
+
+---
+#jamstack #javascript #webdesign #webdevelopment

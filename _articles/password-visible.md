@@ -4,7 +4,7 @@ title: Pourquoi un mot de passe devrait être illisible ?
 date: 01/06/2021
 categories: Pratique
 image_path: ../assets/img/articles/lv-password-reader.png
-tags: [ pratique, javascript]
+tags: [ pratique, javascript, ux]
 description: "Un mot de passe lisible et visible peut-être vraiment pratique pour vos clients."
 twitterimage: assets/img/articles/lv-password-reader.png
 ---
@@ -26,6 +26,8 @@ le formulaire de base et le resultat
 
 ### Version avec jQuery de Jeremy Keith
 Le script utilise la librairie jQuery pour créer à la volée la transformation de votre champs de type=”password “ au type=”text”.
+[Version avec jQuery de Jeremy Keith ](https://codepen.io/lvdesign2016/pen/xxqWJRm)
+
 
 ```javascript
 
@@ -62,7 +64,7 @@ jQuery(function($) {
 
 ### Ma version en Vanilla JS
 Le script utilise seulement le Dom et Javascript pour créer à la volée la transformation de votre champs de type=”password “ en type=”text”. C’est pratique car vous n’êtes pas obligé d’utiliser une librairie complète.
-
+[Ma version en Vanilla JS](https://codepen.io/lvdesign2016/pen/dyvmKaw)
 
 ```javascript
 
@@ -138,4 +140,8 @@ addLoadEvent(prepareInputTextField);
 
 ```
 
-[les scripts à votre disposition ](https://github.com/lvdesign/mot-de-passe)
+[les scripts sont à votre disposition.](https://github.com/lvdesign/mot-de-passe)
+
+
+---
+#vanillajs #jqueyy #ux #ui #psw #webdesign
