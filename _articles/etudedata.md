@@ -5,6 +5,7 @@ date: 13/01/2018
 categories: Data-analitic
 tags: [ datascience, ]
 image_path: ../assets/img/articles/SearchState.png
+
 description: " Data Analytics : étude d'une application pour optimiser un voyage dans un lieux que l'on connais pas grâce à une étude dynamique de données recueillies."
 twitterimage: assets/img/articles/SearchState.png
 ---
