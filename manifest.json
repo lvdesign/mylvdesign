@@ -2,6 +2,7 @@
     "lang": "fr",
     "short_name": "LVdesign",
     "name": "laurent vignaux design",
+    "description": "",
     "icons": [
         {
             "src": "./assets/m/apple-touch-icon-57x57-precomposed.png",
@@ -9,8 +10,8 @@
             "type": "image/png"
         },
         {
-            "src": "./assets/m/apple-touch-icon-71x71-precomposed.png",
-            "sizes": "71x71",
+            "src": "./assets/m/apple-touch-icon-72x72-precomposed.png",
+            "sizes": "72x72",
             "type": "image/png"
         },
         {
@@ -36,6 +37,7 @@
     ],
     "start_url": "/",
     "display": "minimal-ui",
-    "background_color": "#ffffff",
-    "theme_color": "#ffffff"
+    "background_color": "#FEFEFE",
+    "dir": "ltr",
+    "theme_color": "#FEFEFE"
 }
