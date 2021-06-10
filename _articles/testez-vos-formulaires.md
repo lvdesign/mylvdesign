@@ -4,7 +4,7 @@ title: Des bonnes pratiques pour un formulaire efficace
 date: 04/6/2021
 categories: Pratique
 image_path: ../assets/img/articles/formulaires.png
-tags: [ ux, webdesign ]
+tags: [ ux, web ]
 description: "Testez votre formulaire pour connaitre les bonnes pratiques efficace pour aider vos clients."
 twitterimage: assets/img/articles/formulaires.png
 ---

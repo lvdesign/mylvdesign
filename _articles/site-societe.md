@@ -4,7 +4,7 @@ title: Votre site E-commerce pour votre boutique !
 date: 23/7/2019
 categories: Web
 image_path: ../assets/img/articles/sitesociete.png
-tags: [ web, design, e-commerce]
+tags: [ web, e-commerce]
 description: "Site-Societe : un site pour votre boutique en ligne ! Votre société sera présente sur le web pour communiquer facilement avec vos clients."
 twitterimage: assets/img/articles/sitesociete.png
 ---

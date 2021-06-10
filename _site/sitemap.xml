@@ -5,6 +5,10 @@
 <lastmod>2018-01-13T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/mylvdesign/articles/data-capital-city-csv.html</loc>
+<lastmod>2019-03-13T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/mylvdesign/articles/site-vitrine.html</loc>
 <lastmod>2019-06-23T00:00:00+02:00</lastmod>
 </url>
@@ -37,6 +41,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/mylvdesign/articles/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/mylvdesign/assets/img/articles/week5-dataVisualisation.pdf</loc>
+<lastmod>2021-06-04T12:36:21+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/mylvdesign/offline.html</loc>

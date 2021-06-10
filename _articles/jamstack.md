@@ -3,7 +3,7 @@ layout: article
 title: Jamstack ? mais oui, c'est bien sur…
 date: 23/6/2020
 categories: Web
-tags: [ pratique, javascript]
+tags: [ javascript, ]
 image_path: ../assets/img/articles/Jamstack_Logo_Original_Solid.png
 description: "Jamstack : votre site est en ligne, tout marche bien et en fait vos documents sont sur votre ordinateur!"
 twitterimage: assets/img/articles/Jamstack_Logo_Original_Solid.png

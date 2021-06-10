@@ -2,7 +2,7 @@
 layout: article
 title: Etude Data pour une App, Search Capital City Travel
 date: 13/01/2018
-categories: Data-analitic
+categories: Data-analytic
 tags: [ datascience, ]
 image_path: ../assets/img/articles/SearchState.png
 

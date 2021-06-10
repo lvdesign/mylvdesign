@@ -57,9 +57,10 @@
       distance: '0px'
     }, 300);
   
-    // Service worker
+    // Service worker {{'/assets/jquery/jquery.min.js' | prepend: site.baseurl | prepend: site.url }}
+    //{{'/assets/jquery/jquery.min.js' | prepend: site.baseurl | prepend: site.url }}
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/basicServiceWorker.js', { scope: 'https://lvdesign.com.fr/' }).then(function(reg) {
+      navigator.serviceWorker.register('{{ site.baseurl }}/basicServiceWorker.js', { scope: './' }).then(function(reg) {
         // registration worked
         console.log('Registration succeeded. Scope is ' + reg.scope);
       }).catch(function(error) {

@@ -4,7 +4,7 @@ title: Top top Django 3 !
 date: 23/6/2020
 categories: Books
 image_path: ../assets/img/articles/Django3_by_example.png
-tags: [ python, web ]
+tags: [ python, web, book ]
 description: "Version 3 de ce livre de Antonio Melé sur le framework Django en situation (Django 3 by example)"
 twitterimage: assets/img/articles/Django3_by_example.png
 ---

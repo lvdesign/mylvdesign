@@ -4,7 +4,7 @@ title: Pourquoi un mot de passe devrait être illisible ?
 date: 01/06/2021
 categories: Pratique
 image_path: ../assets/img/articles/lv-password-reader.png
-tags: [ pratique, javascript, ux]
+tags: [ javascript, ux]
 description: "Un mot de passe lisible et visible peut-être vraiment pratique pour vos clients."
 twitterimage: assets/img/articles/lv-password-reader.png
 ---

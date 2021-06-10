@@ -4,13 +4,13 @@
     "name": "laurent vignaux design",
     "icons": [
         {
-            "src": "./assets/m/apple-touch-icon-57x57-precompose.png",
+            "src": "./assets/m/apple-touch-icon-57x57-precomposed.png",
             "sizes": "57x57",
             "type": "image/png"
         },
         {
-            "src": "./assets/m/apple-touch-icon-72x72-precomposed.png",
-            "sizes": "72x72",
+            "src": "./assets/m/apple-touch-icon-71x71-precomposed.png",
+            "sizes": "71x71",
             "type": "image/png"
         },
         {
