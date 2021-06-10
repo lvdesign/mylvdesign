@@ -5,7 +5,7 @@
 // http://creativecommons.org/publicdomain/zero/1.0/
     // Update 'version' if you need to refresh the cache
     var staticCacheName = 'staticnew2021';
-    var version = 'v2:LVdesign';
+    var version = 'v3:LVdesign';
 
     // Store core files in a cache (including a page to display when offline)
     function updateStaticCache() {

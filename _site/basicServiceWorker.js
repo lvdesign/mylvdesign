@@ -4,34 +4,34 @@
 // Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 // http://creativecommons.org/publicdomain/zero/1.0/
     // Update 'version' if you need to refresh the cache
-    var staticCacheName = 'static';
-    var version = 'v2:LVdesign';
+    var staticCacheName = 'staticnew2021';
+    var version = 'v3:LVdesign';
 
     // Store core files in a cache (including a page to display when offline)
     function updateStaticCache() {
         return caches.open(version + staticCacheName)
             .then(function (cache) {
                 return cache.addAll([
-                    './assets/js/agency.js',
-                    './assets/css/style.css',
-                    './assets/img/lvdesign-brand-50.png',
-                    './assets/img/header-bg.jpg',
-                    './assets/img/portfolio/blog-site-t.png',
-                    './assets/img/portfolio/bmw-site-t.png',
-                    './assets/img/portfolio/company-site-t.png',
-                    './assets/img/portfolio/cookissime-site-t.png',
-                    './assets/img/portfolio/recettesoriginales-site-t.png',
-                    './assets/img/portfolio/veganrecipes-site-t.png',
-                    './assets/img/portfolio/efcover.png',
-                    './assets/img/portfolio/jldcover.png',
-                    './assets/img/portfolio/mtcover.png',
-                    './assets/img/recommandations/bmw-site-r.png',
-                    './assets/img/recommandations/cookissime-site-r.png',
-                    '/solutions/*',
-                    '/pictos/*',
-                    '/team/*',
+                    'assets/js/agency.js',
+                    'assets/css/style.css',
+                    'assets/img/lvdesign-brand-50.png',
+                    'assets/img/header-bg.jpg',
+                    'assets/img/portfolio/blog-site-t.png',
+                    'assets/img/portfolio/bmw-site-t.png',
+                    'assets/img/portfolio/company-site-t.png',
+                    'assets/img/portfolio/cookissime-site-t.png',
+                    'assets/img/portfolio/recettesoriginales-site-t.png',
+                    'assets/img/portfolio/veganrecipes-site-t.png',
+                    'assets/img/portfolio/efcover.png',
+                    'assets/img/portfolio/jldcover.png',
+                    'assets/img/portfolio/mtcover.png',
+                    'assets/img/recommandations/bmw-site-r.png',
+                    'assets/img/recommandations/cookissime-site-r.png',
+                    '/solutions/',
+                    '/pictos/',
+                    '/team/',
                     '/',
-                    '/articles/*',
+                    '/articles/',
                     '/offline.html'
                 ]);
             });
