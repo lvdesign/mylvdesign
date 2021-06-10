@@ -22,13 +22,14 @@ function updateStaticCache() {
             './assets/js/agency.js',
             './assets/css/style.css',
             './assets/img/lvdesign-brand-50.png',
+            './assets/img/header-bg.jpg',
         ]);
         // These items must be cached for the Service Worker to complete installation
         return staticCache.addAll([
-            '/',
-            '/index.html',
-            '/articles/',
-            '/offline.html'
+            './',
+            './index.html',
+            './articles/',
+            './offline.html'
         ]);
     });
 }

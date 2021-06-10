@@ -58,16 +58,27 @@
     }, 300);
   
     // Service worker 
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register(' https://lvdesign.github.io/mylvdesign/serviceworker.js', { scope: ' https://lvdesign.github.io/mylvdesign/' }).then(function(reg) {
+   /*  if (
+      'serviceWorker' in navigator &&
+        (typeof Cache !== "undefined" && Cache.prototype.addAll)) 
+      {
+      navigator.serviceWorker.register('https://lvdesign.github.io/mylvdesign/serviceworker.js', { scope: ' https://lvdesign.github.io/mylvdesign/' }).then(function(reg) {
         // registration worked
         console.log('Registration succeeded. Scope is ' + reg.scope);
       }).catch(function(error) {
         // registration failed
         console.log('Registration failed with ' + error);
       });
-    };
+    }; */
     
+    //
+    if (
+      "serviceWorker" in navigator &&
+      (typeof Cache !== "undefined" && Cache.prototype.addAll)
+    ) {
+      // Yay, this is a problem we didn't need to have!
+      navigator.serviceWorker.register("./serviceworker.js");
+    }
   
   })(jQuery); // End of use strict
   
