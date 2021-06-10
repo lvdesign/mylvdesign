@@ -29,25 +29,26 @@ https://www.filamentgroup.com/
   
     const offlinePages = [
       '/',
+      '/index.html',
       '/articles/',
       '/offline.html'
     ];
     const staticAssets = [
-        'assets/js/agency.js',
-        'assets/css/style.css',
-        'assets/img/lvdesign-brand-50.png',
-        'assets/img/header-bg.jpg',
-        'assets/img/portfolio/blog-site-t.png',
-        'assets/img/portfolio/bmw-site-t.png',
-        'assets/img/portfolio/company-site-t.png',
-        'assets/img/portfolio/cookissime-site-t.png',
-        'assets/img/portfolio/recettesoriginales-site-t.png',
-        'assets/img/portfolio/veganrecipes-site-t.png',
-        'assets/img/portfolio/efcover.png',
-        'assets/img/portfolio/jldcover.png',
-        'assets/img/portfolio/mtcover.png',
-        'assets/img/recommandations/bmw-site-r.png',
-        'assets/img/recommandations/cookissime-site-r.png',
+        '/assets/js/agency.js',
+        '/assets/css/style.css',
+        '/assets/img/lvdesign-brand-50.png',
+        '/assets/img/header-bg.jpg',
+        '/assets/img/portfolio/blog-site-t.png',
+        '/assets/img/portfolio/bmw-site-t.png',
+        '/assets/img/portfolio/company-site-t.png',
+        '/assets/img/portfolio/cookissime-site-t.png',
+        '/assets/img/portfolio/recettesoriginales-site-t.png',
+        '/assets/img/portfolio/veganrecipes-site-t.png',
+        '/assets/img/portfolio/efcover.png',
+        '/assets/img/portfolio/jldcover.png',
+        '/assets/img/portfolio/mtcover.png',
+        '/assets/img/recommandations/bmw-site-r.png',
+        '/assets/img/recommandations/cookissime-site-r.png',
     ];
   
     function updateStaticCache() {
