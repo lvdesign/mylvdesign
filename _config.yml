@@ -37,6 +37,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-commonmark-ghpages
 
 sass:
   style: compressed
@@ -51,6 +52,7 @@ collections:
 include:
   - 404.html
   - offline.html
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
