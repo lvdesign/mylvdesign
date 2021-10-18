@@ -17,3 +17,7 @@ git push
 
 My suggestion would be to create gh-pages as an --orphan branch and only include the publication-ready material in it. You would have to clone from your master in a different local directory, use git checkout --orphan gh-pages to create gh-pages and then delete all the unnecessary files using git rm -rf .. From there you can go on and push to gh-pages after having added your publish-only files. Refer to Github docs for more info:
 https://help.github.com/articles/creating-project-pages-manually/
+
+
+
+Mettre _site dans _docs pour mise en ligne de gh_pages avec root _docs
