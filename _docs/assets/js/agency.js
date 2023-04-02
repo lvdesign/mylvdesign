@@ -80,9 +80,7 @@
       navigator.serviceWorker.register("./serviceworker.js");
     }
 
-    var today = new Date(); 
-    var date = today.getFullYear();                       
-    document.getElementById("NewYear").innerHTML=date;
+    
   
   })(jQuery); // End of use strict
   
